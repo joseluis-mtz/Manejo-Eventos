@@ -160,6 +160,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Image = global::Manejo_Eventos.Properties.Resources._2;
             this.pictureBox1.Location = new System.Drawing.Point(5, 49);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(149, 129);
@@ -177,6 +178,7 @@
             this.rbDos.TabStop = true;
             this.rbDos.Text = "Opción 2";
             this.rbDos.UseVisualStyleBackColor = true;
+            this.rbDos.CheckedChanged += new System.EventHandler(this.rbDos_CheckedChanged);
             // 
             // rbUno
             // 
@@ -188,6 +190,7 @@
             this.rbUno.TabStop = true;
             this.rbUno.Text = "Opción 1";
             this.rbUno.UseVisualStyleBackColor = true;
+            this.rbUno.CheckedChanged += new System.EventHandler(this.rbUno_CheckedChanged);
             // 
             // Form1
             // 

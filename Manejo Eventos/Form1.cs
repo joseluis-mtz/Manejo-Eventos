@@ -16,5 +16,15 @@ namespace Manejo_Eventos
         {
             InitializeComponent();
         }
+
+        private void rbUno_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources._1;
+        }
+
+        private void rbDos_CheckedChanged(object sender, EventArgs e)
+        {
+            pictureBox1.Image = Properties.Resources._2;
+        }
     }
 }
