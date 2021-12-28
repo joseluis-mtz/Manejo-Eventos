@@ -90,6 +90,7 @@
             this.btnSave.TabIndex = 25;
             this.btnSave.Text = "Guardar";
             this.btnSave.UseVisualStyleBackColor = true;
+            this.btnSave.Click += new System.EventHandler(this.btnSave_Click);
             // 
             // cmbElementos
             // 
@@ -109,6 +110,7 @@
             this.cmbElementos.Name = "cmbElementos";
             this.cmbElementos.Size = new System.Drawing.Size(121, 21);
             this.cmbElementos.TabIndex = 24;
+            this.cmbElementos.SelectedIndexChanged += new System.EventHandler(this.cmbElementos_SelectedIndexChanged);
             // 
             // label3
             // 

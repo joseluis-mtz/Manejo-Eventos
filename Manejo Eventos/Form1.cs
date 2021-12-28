@@ -26,5 +26,19 @@ namespace Manejo_Eventos
         {
             pictureBox1.Image = Properties.Resources._2;
         }
+
+        private void cmbElementos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Eligio: " + cmbElementos.SelectedItem.ToString());
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Form2 cambio = new Form2();
+            cambio.lblNom.Text = txtNom.Text;
+            cambio.lblAp.Text = txtApe.Text;
+            cambio.lblTell.Text = txtTel.Text;
+            cambio.ShowDialog();
+        }
     }
 }
