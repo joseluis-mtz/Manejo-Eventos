@@ -81,6 +81,7 @@
             this.lstNum.Name = "lstNum";
             this.lstNum.Size = new System.Drawing.Size(143, 121);
             this.lstNum.TabIndex = 26;
+            this.lstNum.SelectedIndexChanged += new System.EventHandler(this.lstNum_SelectedIndexChanged);
             // 
             // btnSave
             // 

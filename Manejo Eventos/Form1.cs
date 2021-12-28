@@ -40,5 +40,10 @@ namespace Manejo_Eventos
             cambio.lblTell.Text = txtTel.Text;
             cambio.ShowDialog();
         }
+
+        private void lstNum_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            MessageBox.Show("Eligio: " + lstNum.SelectedItem.ToString());
+        }
     }
 }
